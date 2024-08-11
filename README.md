@@ -26,3 +26,26 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.o
 ```sh
 curl -sS https://starship.rs/install.sh | sh
 ```
+## Setup SSH
+### Generate ssh key
+```sh
+ssh-keygen -t ed25519 -C "sifat@workstation" -f ~/.ssh/qa_ed25519
+ssh-keygen -t ed25519 -C "mahi@workstation" -f ~/.ssh/id_ed25519
+```
+### Create config
+```sh
+touch ~/.ssh/config
+echo "
+# Primary GitHub account
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_ed25519
+
+# Secondary GitHub account
+Host qp.github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/qp_ed25519
+" >>~/.ssh/config
+```
