@@ -49,3 +49,11 @@ Host qp.github.com
   IdentityFile ~/.ssh/qp_ed25519
 " >>~/.ssh/config
 ```
+## Some update
+```sh
+sudo echo "/dev/nvme0n1p3 /mnt/Base auto defaults,nofail 0 0
+//192.168.0.103/groot /mnt/Groot cifs username=mahi,password=$password,nofail 0 0
+//192.168.0.103/mahi160 /mnt/Mahi160 cifs username=mahi,password=$password,nofail 0 0" >>/etc/fstab
+sudo echo "Color" >>/etc/pacman.conf
+```
+
