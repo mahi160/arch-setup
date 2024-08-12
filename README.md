@@ -29,7 +29,7 @@ curl -sS https://starship.rs/install.sh | sh
 ## Setup SSH
 ### Generate ssh key
 ```sh
-ssh-keygen -t ed25519 -C "sifat@workstation" -f ~/.ssh/qa_ed25519
+ssh-keygen -t ed25519 -C "sifat@workstation" -f ~/.ssh/qp_ed25519
 ssh-keygen -t ed25519 -C "mahi@workstation" -f ~/.ssh/id_ed25519
 ```
 ### Create config
