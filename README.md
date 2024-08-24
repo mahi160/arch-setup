@@ -56,4 +56,8 @@ sudo echo "/dev/nvme0n1p3 /mnt/Base auto defaults,nofail 0 0
 //192.168.0.103/mahi160 /mnt/Mahi160 cifs username=mahi,password=$password,nofail 0 0" >>/etc/fstab
 sudo echo "Color" >>/etc/pacman.conf
 ```
-
+## Themeing
+### Dynamic wallpaper from [https://github.com/manishprivet/dynamic-gnome-wallpapers](Dynamic Gnome Wallpapers)
+```sh
+curl -s https://wallpapers.manishk.dev/install.sh | bash -s Lakeside
+```
