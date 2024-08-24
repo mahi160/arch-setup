@@ -57,7 +57,21 @@ sudo echo "/dev/nvme0n1p3 /mnt/Base auto defaults,nofail 0 0
 sudo echo "Color" >>/etc/pacman.conf
 ```
 ## Themeing
-### [Dynamic Gnome Wallpapers](https://github.com/manishprivet/dynamic-gnome-wallpapers)
+### Themes and icons
+```sh
+yay --no-confirm adw-gtk3 tela-icon-theme
+```
+### Dynamic wallpaper from [https://github.com/manishprivet/dynamic-gnome-wallpapers](Dynamic Gnome Wallpapers)
 ```sh
 curl -s https://wallpapers.manishk.dev/install.sh | bash -s Lakeside
+```
+## Installing app
+## CLIs
+```sh
+curl -fsSL https://fnm.vercel.app/install | bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+### Non flatpak
+```sh
+yay --no-confirm brave-bin libre-office-fresh firefox-developer-edition visual-studio-code-bin docker docker-compose tlp flameshot neofetch htop exa duf onefetch ttf-jetbrains-mono-nerd timeshift timeshift-autosnap gparted 
 ```
