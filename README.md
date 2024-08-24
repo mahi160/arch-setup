@@ -61,7 +61,7 @@ sudo echo "Color" >>/etc/pacman.conf
 ```sh
 yay --no-confirm adw-gtk3 tela-icon-theme
 ```
-### Dynamic wallpaper from [https://github.com/manishprivet/dynamic-gnome-wallpapers](Dynamic Gnome Wallpapers)
+### [Dynamic Gnome Wallpaper](https://github.com/manishprivet/dynamic-gnome-wallpapers)
 ```sh
 curl -s https://wallpapers.manishk.dev/install.sh | bash -s Lakeside
 ```
