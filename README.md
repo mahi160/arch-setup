@@ -57,7 +57,7 @@ sudo echo "/dev/nvme0n1p3 /mnt/Base auto defaults,nofail 0 0
 sudo echo "Color" >>/etc/pacman.conf
 ```
 ## Themeing
-### Dynamic wallpaper from [https://github.com/manishprivet/dynamic-gnome-wallpapers](Dynamic Gnome Wallpapers)
+### [Dynamic Gnome Wallpapers](https://github.com/manishprivet/dynamic-gnome-wallpapers)
 ```sh
 curl -s https://wallpapers.manishk.dev/install.sh | bash -s Lakeside
 ```
